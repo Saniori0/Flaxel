@@ -1,8 +1,8 @@
 package main
 
 import (
-	"flaxel/internal/App"
-	"flaxel/internal/Configurating"
+	"Flaxel/internal/App"
+	"Flaxel/internal/Configurating"
 	"github.com/redis/go-redis/v9"
 	"os"
 	"strings"
