@@ -1,16 +1,15 @@
 package App
 
 import (
-	"Flaxel/internal/Configurating"
 	"github.com/redis/go-redis/v9"
 )
 
 type App struct {
-	config Configurating.Config
+	config Config
 	Redis  *redis.Client
 }
 
-func CreateApp(config Configurating.Config) *App {
+func CreateApp(config Config) *App {
 	return &App{
 		config: config,
 		Redis:  config.ConnectToRedis(),
