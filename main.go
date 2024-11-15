@@ -1,4 +1,4 @@
-package flaxel
+package main
 
 import (
 	"flaxel/internal/App"
