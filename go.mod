@@ -1,4 +1,4 @@
-module flaxel
+module github.com/Saniori0/Flaxel/tree/master
 
 go 1.22.2
 
