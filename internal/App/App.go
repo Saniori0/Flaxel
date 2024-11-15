@@ -1,7 +1,7 @@
 package App
 
 import (
-	"github.com/Saniori0/Flaxel/internal/Configurating"
+	"flaxel/internal/Configurating"
 	"github.com/redis/go-redis/v9"
 )
 
